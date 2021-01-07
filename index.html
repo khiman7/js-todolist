@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="img/js.ico">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Inter:wght@200;500&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+        <script src="js/script.js" defer/></script>
+        <script src="https://kit.fontawesome.com/9057278f8f.js" crossorigin="anonymous"></script>
+
+        <title>Todo List</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <h1>TODOLIST.<span class="header-yellow">JS</span></h1>
+            </div>
+            <div class="main">
+                <div class="main_input">
+                    <input type="text" class="add-item" placeholder="Add new task..." maxlength="55" onkeypress="view.addItem(event)">
+                    <button class="btn_add-item" onclick="view.addItem(event)"><a><i class="fas fa-angle-right"></i></a></button>
+                </div>
+                <ul class="todo-list">
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
